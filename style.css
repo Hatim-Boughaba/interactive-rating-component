@@ -1,0 +1,194 @@
+body {
+    margin: 0 auto;
+    max-width: 1440px;
+    background: hsl(216, 12%, 8%);
+}
+
+
+
+.container {
+    margin: 120px auto;
+    width: 300px;
+    height: 80%;
+    background: hsl(213, 19%, 18%);
+    border-radius: 10%;
+}
+
+.container__card {
+    padding: 30px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container__thank--card {
+    padding: 30px 25px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.selection {
+    color: hsl(25, 97%, 53%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    padding: 5px 15px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 50px;
+    background: hsla(217, 12%, 63%, 0.265);
+    
+}
+
+.container__thank--card p {
+    font-size: 15px;
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+}
+
+.container__thank--card h2 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+
+.container__card p {
+    width: 90%;
+    font-size: 15px;
+    text-align:justify;
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+}
+
+.container__card h1 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+
+/* buttons and shapes */
+.my__star {
+    background: hsla(217, 12%, 63%, 0.265);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.my__numbers {
+    display:  flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.btn__nbr {
+    background: hsla(217, 12%, 63%, 0.265);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px; 
+    cursor: pointer;
+    color: hsl(217, 12%, 63%);
+}
+
+.is_active {
+    color: hsl(0, 0%, 100%);
+    background: hsl(217, 12%, 63%);
+}
+
+.btn__nbr:hover {
+    background: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    transition: all 0.3s ease;
+}
+
+.btn__submit {
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    color: hsl(0, 0%, 100%);
+    background: hsl(25, 97%, 53%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn__submit:hover {
+    background: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    transition: all 0.3s ease;
+}
+
+.attribution {
+    color: white;
+    margin: 40px;
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 250px;
+    }
+
+    .container__card {
+        padding: 30px 25px;
+    }
+
+    .container__thank--card {
+        padding: 30px 25px 5px;
+    }
+
+    .selection {
+        padding: 5px 10px;
+        font-size: 0.8rem;
+    }
+
+    
+    .container__thank--card p {
+        font-size: 0.75rem;
+    }
+
+    .container__thank--card h2 {
+        font-size: 1.35rem;
+    }
+    
+    .container__card p {
+        font-size: 0.75rem;
+    }
+
+    .container__card h1 {
+        font-size: 1.6rem;
+    }
+
+    .my__star {
+        width: 35px;
+        height: 35px;
+    }
+
+    .btn__nbr {
+        width: 35px;
+        height: 35px; 
+    }
+
+    .btn__submit {
+        padding: 7.5px;
+        font-size: 0.75rem;
+    }
+
+    .attribution {
+        margin: 0;
+    }
+}
